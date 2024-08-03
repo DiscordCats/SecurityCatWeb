@@ -4,6 +4,14 @@
 	import Box from "$lib/components/home/Box.svelte";
 </script>
 
+<svelte:head>
+	<title>SecurityCat</title>
+	<meta name="description" content="The only message blocker you need for your Discord Server" />
+	<meta name="og:title" content="SecurityCat" />
+	<meta name="og:description" content="The only message blocker you need for your Discord Server" />
+	<meta name="theme-color" content="#FFB5A7" />
+</svelte:head>
+
 <div class="flex h-screen items-center justify-center">
 	<div class="space-y-10">
 		<Heading tag="h1" class="text-center">
